@@ -1,0 +1,20 @@
+-----------------------------------------------------------------
+prerequisites
+-----------------------------------------------------------------
+maven (http://maven.apache.org/download.cgi)
+gradle (http://www.gradle.org/installation)
+tomcat (http://tomcat.apache.org/tomcat-7.0-doc/appdev/installation.html)
+
+-----------------------------------------------------------------
+to build
+-----------------------------------------------------------------
+cd <path to candy-corn>
+./gradle build
+java -jar build/libs/gs-rest-service-0.1.0.jar
+
+this will start the application running on localhost:8080 (tomcat)
+
+-----------------------------------------------------------------
+complete tutorial:
+-----------------------------------------------------------------
+http://spring.io/guides/gs/rest-service/
